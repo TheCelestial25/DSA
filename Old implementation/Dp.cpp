@@ -355,11 +355,6 @@ int main() {
 	/*for(int i=0; i<10;i++) {
 	}*/
 	memset(dp, -1, sizeof dp);
-	int k = 2; 
-    int price[] = { 10, 22, 5, 75, 65, 80 }; 
-    int n = sizeof(price) / sizeof(price[0]); 
-  
-    cout << "Maximum profit is: "
-         << buySellStocksK(price, n, k);
+	cout << a.size();
 	return 0;
 }
